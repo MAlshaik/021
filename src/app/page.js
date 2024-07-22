@@ -48,7 +48,7 @@ export default function Home() {
       }
       if (isDiscordHovered) {
         console.log('Discord icon clicked, opening Discord');
-        window.open("https://discord.gg/your_discord", '_blank', 'noopener,noreferrer');
+        window.open("https://discord.gg/udP6Yg8FTE", '_blank', 'noopener,noreferrer');
         return;
       }
       if (isPomodoroHovered) {
