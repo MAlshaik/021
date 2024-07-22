@@ -1,6 +1,8 @@
-* {
- cursor: none !important;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @font-face {
     font-family: 'Avant Garde Book BT';
     font-style: normal;
@@ -14,5 +16,8 @@ body{
     font-family: 'Avant Garde Book BT';
 }
 
+.home{
+ cursor: none !important;
+}
 
 

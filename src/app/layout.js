@@ -1,5 +1,5 @@
-import { Kalam } from "next/font/google";
 import './globals.css'
+import { Kalam } from "next/font/google";
 
 export const metadata = {
   title: '021',
@@ -10,7 +10,6 @@ const kalam = Kalam({
     weight: "300",
     subsets: ["latin"],
 });
-
 
 export default function RootLayout({ children }) {
   return (
