@@ -65,16 +65,15 @@ export default function LeaderboardPage() {
       </Head>
       <div className="container mx-auto py-10 text-white" style={{ fontFamily: 'Inter, sans-serif' }}>
         <div className="rounded-md border border-white/30 overflow-hidden">
-          <div className="hidden md:grid md:grid-cols-5 gap-4 px-4 py-3 font-medium text-sm bg-white/25">
+          <div className="hidden md:grid md:grid-cols-4 gap-4 px-4 py-3 font-medium text-sm bg-white/25">
             <div>Name</div>
             <div>Email</div>
-            <div>Major</div>
             <div># of Launch Cycles</div>
             <div>Social Media</div>
           </div>
           <div className="divide-y divide-white/15">
             {sortedLeaderboardData.map((user, index) => (
-              <div key={index} className="grid grid-cols-1 md:grid-cols-5 gap-2 md:gap-4 px-4 py-3 text-sm hover:bg-white/25 transition-colors">
+              <div key={index} className="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 px-4 py-3 text-sm hover:bg-white/25 transition-colors">
                 <div className="font-medium md:hidden">Name:</div>
                 <div className="font-medium">{user.name}</div>
                 <div className="font-medium md:hidden">Email:</div>
