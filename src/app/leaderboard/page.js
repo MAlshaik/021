@@ -5,7 +5,6 @@ const leaderboardData = [
   {
     name: "John Doe",
     email: "john@example.com",
-    major: "Computer Science",
     launchCycles: 10,
     twitter: "johndoe",
     linkedin: "johndoe",
@@ -14,7 +13,6 @@ const leaderboardData = [
   {
     name: "Jane Smith",
     email: "jane@example.com",
-    major: "Data Science",
     launchCycles: 8,
     twitter: "janesmith",
     linkedin: "janesmith",
@@ -22,7 +20,6 @@ const leaderboardData = [
   {
     name: "Bob Johnson",
     email: "bob@example.com",
-    major: "Engineering",
     launchCycles: 12,
     instagram: "bobjohnson",
   },
@@ -82,8 +79,6 @@ export default function LeaderboardPage() {
                 <div className="font-medium">{user.name}</div>
                 <div className="font-medium md:hidden">Email:</div>
                 <div>{user.email}</div>
-                <div className="font-medium md:hidden">Major:</div>
-                <div>{user.major}</div>
                 <div className="font-medium md:hidden"># of Launch Cycles:</div>
                 <div>{user.launchCycles}</div>
                 <div className="font-medium md:hidden">Social Media:</div>
